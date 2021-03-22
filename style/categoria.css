@@ -1,0 +1,45 @@
+.categorias{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* width: 10%; */
+    /* height: 100%; */
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.listaCategoria{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 19%;
+    box-shadow: inset 0 0 0 0 rgb(254, 100, 111);
+    transition: ease-out 0.3s;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    /* outline: none; */
+    /* border-radius: 5px; */
+    /* margin-top: 5px; */
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    /* font-weight: 100; */
+    /* color: rgb(7, 7, 224); */
+    /* align-items: center;
+    justify-content: center; */
+    /* margin: 0 auto; */
+    /* border: 1px solid black; */
+    /* background: cornsilk; */
+    
+    cursor: pointer;
+    
+}
+.listaCategoria:hover{
+    cursor: pointer;
+    box-shadow: inset 200px 0 0 0 rgb(254, 100, 111);
+    color: #FFFFFF;
+    /* transition: 0.5s; */
+    /* background: rgba(240, 237, 237, 0.548); */
+    /* box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
+}

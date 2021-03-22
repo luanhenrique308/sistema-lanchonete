@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;    
+    font-family: 'Chelsea Market', cursive;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(219, 217, 217, 0.247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-items: flex-end; */
+    /* justify-content: space-between; */
+}
+.content{
+    width: 80%;
+    height: 80%;
+    /* margin: 0 auto; */
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    /* background: rgb(196, 129, 29); */
+}
+
+
+
+
+
+

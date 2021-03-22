@@ -1,0 +1,162 @@
+.caixa{
+    display: grid;
+    grid-template-rows: 0.20fr 0.20fr 0.20fr 0.20fr;
+    
+    flex-direction: column;
+    background: #FFFFFF;
+    margin-left: 10px;
+    width: 100%;
+    height: 100%;
+
+    /* background: cadetblue; */
+    /* background: black; */
+}
+.quantidaProduto{
+    width: 100%;
+    /* height: 50%; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* justify-content: space-between; */
+}
+.group-valorUnitario{
+    /* background: chocolate; */
+    display: flex;
+    font-size: 15px;
+    /* color: rgba(0, 0, 0, 0.692); */
+    color: rgba(0, 0, 0, 0.733);
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+#valorUnitario{
+    background: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.733);
+    width: 100%;
+    margin-top: 8px;
+    /* height: 5%; */
+    font-size: 15px;
+    border: 0.1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 7px;
+    text-align: end;
+}
+
+.nomeProduto{
+    display: flex;
+    /* width: 100%; */
+    color: rgba(0, 0, 0, 0.692);
+    font-size: 12px;
+    justify-content: center;
+    text-align: center;
+    /* text-align: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+#group-valorTotal{
+    display: flex;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.692);
+    /* color: rgba(0, 0, 0, 0.473); */
+    margin-top: 8px;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+.addProduto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* justify-content: space-around; */
+}
+.btt-produto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+#AdcionarProdutoLista{
+    border: 0.1px solid rgba(0, 0, 0, 0.13);
+    width: 100%;
+    height: 40px;
+    border-radius: 7px;
+    background: rgb(87, 190, 146);
+    color: #FFFFFF;
+    border: none;
+
+}
+.group-quantidade{
+    display: grid;
+    grid-template-columns: 50px 200px 50px;
+    justify-content: space-around;
+    width: 100%;
+    /* height: 40%; */
+    /* background: black; */
+    /* background: chocolate; */
+    /* flex-direction: column; */
+}
+.preco{
+    display: flex;
+    justify-content: space-around;
+}
+
+#quantidade{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background: rgb(87, 190, 146);
+    color: #FFFFFF;
+    border: 0.1px solid rgba(0, 0, 0, 0.13);
+}
+.buttonCaixa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: 6px;
+    color: #FFFFFF;
+    cursor: pointer;
+    background: rgb(87, 190, 146);
+}
+
+
+#produtosSelecionados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#produtosSelecionados table{
+    width: 100%;
+    color: rgba(0, 0, 0, 0.733);
+    /* height: 70%; */
+    font-size: 13px;
+}
+#produtosSelecionados th, td{
+    text-align: center;
+    /* border: 0.1px solid rgba(0, 0, 0, 0.13); */
+}  
+#produtosSelecionados td{
+    text-align: center;
+    /* margin-top: 50px; */
+    /* border-top: 50px; */
+}
+
+.excluir{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    color: rgb(254, 100, 111);
+    border-radius: 6px;
+    /* color: #FFFFFF; */
+    /* background: blue; */
+    cursor: pointer;
+}

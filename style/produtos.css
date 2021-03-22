@@ -1,0 +1,72 @@
+.produtos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.20fr 0.20fr;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    background: #FFFFFF;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* background: blue; */
+    /* width: 60%; */
+    /* height: 100%; */
+    /* background: blue; */
+    margin-left: 10px;
+    border-radius: 5px;
+    /* flex: 1; */
+    /* width: 50%; */
+    /* color: black; */
+    /* background: #a81414; */
+}
+.produto{
+    /* height: 10%; */
+    /* background: blueviolet; */
+    font-family: 'Chelsea Market', cursive;
+    /* font-weight: 300; */
+    /* width: 50%; */
+    /* margin-top: 5px; */
+    display: flex;
+    /* background: yellow; */
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    border-radius: 8px;
+    /* border: 1px solid black; */
+}
+.descricao{
+    display: flex;
+    /* background: tomato; */
+    height: 100%;
+    /* flex: 1; */
+    align-items: flex-end;
+    justify-content: center;
+    /* text-align: left; */
+    /* justify-content: flex-start;  */
+    flex-direction: column; 
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.733);
+
+}
+.produto:hover{
+    transition: 0.5s;
+    background: rgba(0, 0, 0, 0.048);
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+
+    /* background: rgba(112, 112, 112, 0.247); */
+    /* box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
+}
+.precoProduto{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.658);
+}
+.imagemProduto{
+    width: 30%;
+    /* height: 100%; */
+}
+img{
+    width: 100%;
+    /* height: 100%; */
+}

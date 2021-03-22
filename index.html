@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/produtos.css">
+    <link rel="stylesheet" href="./style/categoria.css">
+    <link rel="stylesheet" href="./style/caixa.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <!-- <img src="../icons/sucos/acerola.png" alt=""> -->
+            <div id="categorias" class="categorias"></div>
+            <div id="produtos" class="produtos">
+                
+            </div>
+            <div id="caixa" class="caixa">
+                
+                <div id="quantidaProduto" class="quantidaProduto">
+                    <div id="group-valorUnitario" class="group-valorUnitario">
+                        Preço
+                        <div  id="valorUnitario" class="valor">R$ 0</div>
+                    </div>
+                    <div id="nomeProduto" class="nomeProduto"></div>
+                    <div id="group-valorTotal">
+                        SubTotal
+                        <div id="valorTotal">R$ 0</div>
+                    </div>
+                </div>
+                <div id="addProduto" class="addProduto">
+                    
+                    <div class="group-quantidade">
+                        <div id="diminuir" class="buttonCaixa">-</div>
+                        <input type="text" name=""  id="quantidade">
+                        <div id="adicionar" class="buttonCaixa">+</div>
+                    </div>
+                    <div class="btt-produto">
+                        <button id="AdcionarProdutoLista">Adcionar Produto</button>
+                    </div>
+                </div>
+                <div id="produtosSelecionados">
+                    <table id="table">
+                        <thead>
+                            <tr>
+                                <th>Descricao</th>
+                                <th>Quantidade</th>
+                                <th>Total</th>
+                                <th>Remover</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="totalCompra"></div>
+            </div>
+           
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>
